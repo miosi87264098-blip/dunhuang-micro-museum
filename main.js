@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     "Interactive Gallery": "互动图库",
     "Search and open artworks": "搜索并打开作品",
-    "This page adds two functions: a keyword search bar and a lightbox viewer for larger images.": "此页面加入两个功能：关键词搜索栏和用于查看大图的灯箱。",
     "Cave 159": "第159窟",
     "Musicians": "乐伎",
     "A detailed mural scene that highlights movement, costume and performance.": "一幅细节丰富的壁画场景，突出动作、服饰与表演。",
@@ -150,7 +149,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     "Interactive Timeline": "互动时间线",
     "Filter key periods of Dunhuang history": "筛选敦煌历史关键时期",
-    "This page adds a second new function: users can filter the timeline by historical era.": "此页面加入第二个新功能：用户可以按历史时期筛选时间线。",
     "Early caves": "早期洞窟",
     "Tang period": "唐代时期",
     "Later development": "后期发展",
@@ -172,7 +170,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "The cliffside environment shows how built form and painted space developed together.": "崖壁环境展示了建筑形式与绘画空间如何共同发展。",
 
     "Plan your journey through the exhibition": "规划你的展览旅程",
-    "This page works as a prototype for museum visits, guided learning sessions or event booking. It includes a responsive schedule layout and an HTML5 form.": "此页面是博物馆参观、导赏学习或活动预约的原型，包含响应式日程布局和 HTML5 表单。",
     "Programme": "活动安排",
     "Today's featured routes": "今日精选路线",
     "Morning Intro Tour": "上午入门导览",
@@ -206,8 +203,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "Suitable for students, tourists and art enthusiasts": "适合学生、游客和艺术爱好者",
     "Can be adapted into a real museum or school exhibition project": "可改造为真实博物馆或学校展览项目",
     "Responsive layout also works well on mobile devices": "响应式布局也适合手机设备",
-    "Site purpose": "页面用途",
-    "The visit page shows that the website is not only visual, but also practical. It supports information design, navigation and user interaction.": "参观页面说明网站不仅具有视觉展示功能，也具备实用性，支持信息设计、导航与用户互动。",
 
     "Free entry": "免费进入",
     "Dunhuang Digital Micro-Museum Online Exhibition Project Cultural Heritage Theme": "敦煌数字微型博物馆 线上展览项目 文化遗产主题",
@@ -240,6 +235,17 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const traditionalMap = [
+    ["页面", "頁面"], ["网页", "網頁"], ["网站", "網站"], ["信息", "資訊"], ["用户", "用戶"],
+    ["预约", "預約"], ["表单", "表單"], ["响应式", "響應式"], ["关键", "關鍵"], ["历史", "歷史"],
+    ["时期", "時期"], ["筛选", "篩選"], ["搜索", "搜尋"], ["灯箱", "燈箱"], ["规划", "規劃"],
+    ["路线", "路線"], ["重点", "重點"], ["类型", "類型"], ["导览", "導覽"], ["讲座", "講座"],
+    ["视觉", "視覺"], ["课程", "課程"], ["选择", "選擇"], ["特别", "特別"], ["免费", "免費"],
+    ["进入", "進入"], ["开放", "開放"], ["联系", "聯絡"], ["无障碍", "無障礙"], ["小组", "小組"],
+    ["两个", "兩個"], ["关键词", "關鍵詞"], ["搜索栏", "搜尋欄"], ["用于", "用於"], ["大图", "大圖"],
+    ["说明", "說明"], ["不仅", "不僅"], ["具备", "具備"], ["设计", "設計"], ["导航", "導航"],
+    ["互动", "互動"], ["适合", "適合"], ["手机", "手機"], ["设备", "設備"], ["打开", "打開"],
+    ["乐伎", "樂伎"], ["布局", "佈局"], ["游客", "遊客"], ["爱好者", "愛好者"], ["演示", "演示"],
+    ["未来", "未來"], ["显示", "顯示"], ["帮助", "幫助"], ["观众", "觀眾"], ["项目", "項目"],
     ["数字", "數碼"], ["图像", "圖像"], ["图片", "圖片"], ["图库", "圖庫"], ["时间线", "時間線"],
     ["展览", "展覽"], ["线上", "網上"], ["馆", "館"], ["术", "術"], ["艺", "藝"],
     ["画", "畫"], ["图", "圖"], ["数", "數"], ["线", "線"], ["览", "覽"],
@@ -255,7 +261,22 @@ document.addEventListener("DOMContentLoaded", () => {
     ["馆藏", "館藏"], ["内", "內"], ["间", "間"], ["动", "動"], ["线", "線"],
     ["层", "層"], ["览", "覽"], ["墙", "牆"], ["极", "極"], ["扩", "擴"],
     ["码", "碼"], ["虑", "慮"], ["响", "響"], ["览", "覽"], ["寻", "尋"],
-    ["风化", "風化"], ["东", "東"], ["丝绸", "絲綢"], ["窟", "窟"], ["敦煌", "敦煌"]
+    ["风化", "風化"], ["东", "東"], ["丝绸", "絲綢"],
+    ["预", "預"], ["约", "約"], ["页", "頁"], ["单", "單"], ["响", "響"],
+    ["筛", "篩"], ["选", "選"], ["历", "歷"], ["史", "史"], ["时", "時"],
+    ["期", "期"], ["键", "鍵"], ["户", "戶"], ["规", "規"], ["划", "劃"],
+    ["参", "參"], ["鐘", "鐘"], ["线", "線"], ["路", "路"], ["点", "點"],
+    ["类", "類"], ["视", "視"], ["觉", "覺"], ["讲", "講"], ["择", "擇"],
+    ["别", "別"], ["费", "費"], ["进", "進"], ["无", "無"], ["碍", "礙"],
+    ["门", "門"], ["这", "這"], ["个", "個"], ["会", "會"], ["钟", "鐘"],
+    ["对", "對"], ["兴", "興"], ["爱", "愛"], ["习", "習"], ["号", "號"],
+    ["两", "兩"], ["词", "詞"], ["栏", "欄"], ["于", "於"], ["说", "說"],
+    ["仅", "僅"], ["备", "備"], ["设", "設"], ["计", "計"], ["导", "導"],
+    ["航", "航"], ["适", "適"], ["机", "機"], ["并", "並"], ["乐", "樂"],
+    ["叙", "敘"], ["游", "遊"], ["来", "來"], ["显", "顯"], ["帮", "幫"],
+    ["助", "助"], ["应", "應"], ["荐", "薦"], ["览", "覽"], ["后", "後"],
+    ["开", "開"], ["实", "實"], ["际", "際"], ["遗", "遺"], ["产", "產"],
+    ["窟", "窟"], ["敦煌", "敦煌"]
   ];
 
   function toTraditional(text) {
