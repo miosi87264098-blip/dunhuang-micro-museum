@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit | Dunhuang Digital Micro-Museum</title>
+  <meta name="description" content="Visitor information and booking prototype for the Dunhuang Digital Micro-Museum.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-visit page-blur-bg">
+  <header class="site-header"><div class="container header-inner"><a class="brand" href="index.html">Dunhuang Digital Micro-Museum<small>Online Exhibition</small></a><button class="nav-toggle" aria-label="Open menu">☰</button><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="exhibition.html">Exhibition</a><a href="murals.html">Murals</a><a href="caves.html">Caves</a><a href="gallery.html">Gallery</a><a href="timeline.html">Timeline</a><a href="visit.html">Visit</a></nav></div></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="kicker">Visit</div>
+        <h1>Plan your journey through the exhibition</h1>
+        <p>
+          This page works as a prototype for museum visits, guided learning sessions
+          or event booking. It includes a responsive schedule layout and an HTML5 form.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker">Programme</div>
+        <h2 class="section-title reveal">Today's featured routes</h2>
+
+        <div class="schedule-grid">
+          <article class="schedule-card reveal"><h3>Morning Intro Tour</h3><p><strong>Time:</strong> 10:00 – 11:00</p><p><strong>Focus:</strong> Museum overview and key highlights</p><p><strong>Type:</strong> General audience</p></article>
+          <article class="schedule-card reveal"><h3>Murals Spotlight</h3><p><strong>Time:</strong> 12:00 – 13:00</p><p><strong>Focus:</strong> Colour, composition and symbolism</p><p><strong>Type:</strong> Visual culture session</p></article>
+          <article class="schedule-card reveal"><h3>Cave Architecture Talk</h3><p><strong>Time:</strong> 14:30 – 15:30</p><p><strong>Focus:</strong> Space, preservation and context</p><p><strong>Type:</strong> Guided interpretation</p></article>
+          <article class="schedule-card reveal"><h3>Student Workshop</h3><p><strong>Time:</strong> 16:00 – 17:00</p><p><strong>Focus:</strong> Exhibition design and storytelling</p><p><strong>Type:</strong> School / university groups</p></article>
+        </div>
+
+        <div class="visit-layout">
+          <div class="form-card reveal">
+            <div class="kicker">Booking Form</div>
+            <h2 class="section-title">Reserve a slot</h2>
+            <form id="visit-form" class="form-grid">
+              <div class="form-row"><label for="fullName">Full name</label><input id="fullName" name="fullName" type="text" required placeholder="Enter your full name"></div>
+              <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="Enter your email"></div>
+              <div class="form-row"><label for="groupSize">Group size</label><input id="groupSize" name="groupSize" type="number" min="1" max="40" required placeholder="1 - 40"></div>
+              <div class="form-row"><label for="route">Select a route</label><select id="route" name="route" required><option value="">Choose one</option><option>Morning Intro Tour</option><option>Murals Spotlight</option><option>Cave Architecture Talk</option><option>Student Workshop</option></select></div>
+              <div class="form-row"><label for="message">Special request</label><textarea id="message" name="message" rows="4" placeholder="Optional note for accessibility or group learning needs"></textarea></div>
+              <p class="form-note">This is a prototype booking form for the project demo.</p>
+              <button class="btn btn-primary" type="submit">Submit Request</button>
+              <div class="form-status" id="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+
+          <div class="info-card reveal">
+            <div class="kicker">Visitor Information</div>
+            <h2 class="section-title">Before you come</h2>
+            <ul>
+              <li>Recommended visit duration: 45–60 minutes</li>
+              <li>Suitable for students, tourists and art enthusiasts</li>
+              <li>Can be adapted into a real museum or school exhibition project</li>
+              <li>Responsive layout also works well on mobile devices</li>
+            </ul>
+            <div class="sub-panel"><h3>Site purpose</h3><p>The visit page shows that the website is not only visual, but also practical. It supports information design, navigation and user interaction.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mega-footer"><div class="container mega-footer-grid"><div class="footer-info"><div class="footer-block"><h3>Free entry</h3><p>Dunhuang Digital Micro-Museum<br>Online Exhibition Project<br>Cultural Heritage Theme</p></div><div class="footer-block"><h3>Opening hours</h3><p>Website access: 24 hours<br>Demo available: Daily<br>Best viewed on desktop and mobile</p></div></div><div class="footer-column"><h4>About</h4><a href="index.html">Home</a><a href="exhibition.html">Exhibition overview</a><a href="murals.html">Murals</a><a href="caves.html">Caves</a><a href="visit.html">Visit</a></div><div class="footer-column"><h4>Explore</h4><a href="gallery.html">Image gallery</a><a href="timeline.html">Historical timeline</a><a href="murals.html">Mural collection</a><a href="caves.html">Cave spaces</a><a href="visit.html">Booking prototype</a></div><div class="footer-column"><h4>Resources</h4><a href="https://www.dha.ac.cn/" target="_blank" rel="noopener">Dunhuang Academy</a><a href="https://whc.unesco.org/en/list/440/" target="_blank" rel="noopener">UNESCO World Heritage</a><a href="https://artsandculture.google.com/" target="_blank" rel="noopener">Google Arts &amp; Culture</a><a href="https://commons.wikimedia.org/wiki/Mogao_Caves" target="_blank" rel="noopener">Wikimedia Commons</a><a href="https://www.google.com/maps" target="_blank" rel="noopener">Map reference</a></div><div class="footer-column"><h4>Contact</h4><a href="mailto:yourname@example.com">Email us</a><a href="#">Project team</a><a href="#">Course information</a><a href="#">Accessibility</a><a href="#">Feedback</a></div></div><div class="footer-bottom"><div class="container footer-bottom-inner"><div class="footer-bottom-links"><a href="#">Privacy policy</a><a href="#">Cookies</a><a href="#">Accessibility statement</a><a href="#">Terms of use</a></div><p>© 2026 Dunhuang Digital Micro-Museum · DIT4107 / DMT4747 Group Project</p></div></div></footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

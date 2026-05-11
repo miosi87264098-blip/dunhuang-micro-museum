@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Dunhuang Digital Micro-Museum</title>
+  <meta name="description" content="Searchable Dunhuang image gallery with lightbox viewer.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-gallery page-blur-bg">
+  <header class="site-header"><div class="container header-inner"><a class="brand" href="index.html">Dunhuang Digital Micro-Museum<small>Online Exhibition</small></a><button class="nav-toggle" aria-label="Open menu">☰</button><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="exhibition.html">Exhibition</a><a href="murals.html">Murals</a><a href="caves.html">Caves</a><a href="gallery.html">Gallery</a><a href="timeline.html">Timeline</a><a href="visit.html">Visit</a></nav></div></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="kicker">Interactive Gallery</div>
+        <h1>Search and open artworks</h1>
+        <p>This page adds two functions: a keyword search bar and a lightbox viewer for larger images.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="search-bar reveal">
+          <input id="gallery-search" type="text" placeholder="Search by keyword, for example musicians, cave, Xuanzang, exterior">
+        </div>
+
+        <div class="gallery-grid">
+          <article class="gallery-item reveal" data-search="musicians cave 159 mural painting music figures dunhuang">
+            <img class="real-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Caves,%20cave%20159%20musicians.jpg" alt="Musicians in Cave 159">
+            <div class="gallery-body">
+              <div class="gallery-meta">Cave 159</div>
+              <h3>Musicians</h3>
+              <p>A detailed mural scene that highlights movement, costume and performance.</p>
+              <button class="small-btn" data-modal-img="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Caves,%20cave%20159%20musicians.jpg" data-modal-alt="Musicians in Mogao Cave 159" data-modal-caption="Mogao Caves, Cave 159 musicians">Open image</button>
+            </div>
+          </article>
+
+          <article class="gallery-item reveal" data-search="275 cave mural painting colour figure dunhuang">
+            <img class="real-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mural%20in%20275th%20Cave%20of%20Mogao%20Caves.png" alt="Mural in the 275th Cave of Mogao Caves">
+            <div class="gallery-body">
+              <div class="gallery-meta">Cave 275</div>
+              <h3>Painted figure</h3>
+              <p>An example of early iconographic and stylistic development in Dunhuang cave art.</p>
+              <button class="small-btn" data-modal-img="https://commons.wikimedia.org/wiki/Special:FilePath/Mural%20in%20275th%20Cave%20of%20Mogao%20Caves.png" data-modal-alt="Mural in the 275th Cave of Mogao Caves" data-modal-caption="Mural in the 275th Cave of Mogao Caves">Open image</button>
+            </div>
+          </article>
+
+          <article class="gallery-item reveal" data-search="xuanzang travel india cave mural story dunhuang">
+            <img class="real-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Eighth%20century%20Dunhuang%20cave%20mural%20depicting%20Xuanzang%20returning%20from%20India.jpg" alt="Xuanzang returning from India mural">
+            <div class="gallery-body">
+              <div class="gallery-meta">Travel narrative</div>
+              <h3>Xuanzang returning from India</h3>
+              <p>A famous narrative mural showing movement, memory and the transmission of Buddhism.</p>
+              <button class="small-btn" data-modal-img="https://commons.wikimedia.org/wiki/Special:FilePath/Eighth%20century%20Dunhuang%20cave%20mural%20depicting%20Xuanzang%20returning%20from%20India.jpg" data-modal-alt="Eighth-century Dunhuang cave mural depicting Xuanzang returning from India" data-modal-caption="Eighth-century mural of Xuanzang returning from India">Open image</button>
+            </div>
+          </article>
+
+          <article class="gallery-item reveal" data-search="cave 61 wutai monasteries architecture mount wutai">
+            <img class="real-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Cave%2061,%20painting%20of%20Mount%20Wutai%20monasteries.jpg" alt="Cave 61 mural showing Mount Wutai monasteries">
+            <div class="gallery-body">
+              <div class="gallery-meta">Cave 61</div>
+              <h3>Mount Wutai monasteries</h3>
+              <p>An important mural scene that connects painted space, pilgrimage and architecture.</p>
+              <button class="small-btn" data-modal-img="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Cave%2061,%20painting%20of%20Mount%20Wutai%20monasteries.jpg" data-modal-alt="Mogao Cave 61 painting of Mount Wutai monasteries" data-modal-caption="Cave 61 mural: Mount Wutai monasteries">Open image</button>
+            </div>
+          </article>
+
+          <article class="gallery-item reveal" data-search="exterior cliff chambers facade mogao caves">
+            <img class="real-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Caves%20Exterior%20And%20Chambers.jpeg" alt="Exterior chambers at Mogao Caves">
+            <div class="gallery-body">
+              <div class="gallery-meta">Exterior</div>
+              <h3>Cliffside chambers</h3>
+              <p>A broad view of the cave complex that helps explain the architectural setting.</p>
+              <button class="small-btn" data-modal-img="https://commons.wikimedia.org/wiki/Special:FilePath/Mogao%20Caves%20Exterior%20And%20Chambers.jpeg" data-modal-alt="Mogao Caves Exterior And Chambers" data-modal-caption="Mogao Caves exterior and chambers">Open image</button>
+            </div>
+          </article>
+
+          <article class="gallery-item reveal" data-search="exposed mural exterior weathered painting entrance">
+            <img class="real-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mural%20-%20Mogao%20Caves,%20Dunhuang.jpg" alt="Exposed mural near the modern entrance of Mogao Caves">
+            <div class="gallery-body">
+              <div class="gallery-meta">Exterior mural</div>
+              <h3>Weathered exposed mural</h3>
+              <p>An exposed mural surface that reveals both historical beauty and conservation challenges.</p>
+              <button class="small-btn" data-modal-img="https://commons.wikimedia.org/wiki/Special:FilePath/Mural%20-%20Mogao%20Caves,%20Dunhuang.jpg" data-modal-alt="Exposed mural near the modern entrance of Mogao Caves" data-modal-caption="Exposed mural near the modern entrance">Open image</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" src="" alt="Expanded artwork view">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <footer class="mega-footer"><div class="container mega-footer-grid"><div class="footer-info"><div class="footer-block"><h3>Free entry</h3><p>Dunhuang Digital Micro-Museum<br>Online Exhibition Project<br>Cultural Heritage Theme</p></div><div class="footer-block"><h3>Opening hours</h3><p>Website access: 24 hours<br>Demo available: Daily<br>Best viewed on desktop and mobile</p></div></div><div class="footer-column"><h4>About</h4><a href="index.html">Home</a><a href="exhibition.html">Exhibition overview</a><a href="murals.html">Murals</a><a href="caves.html">Caves</a><a href="visit.html">Visit</a></div><div class="footer-column"><h4>Explore</h4><a href="gallery.html">Image gallery</a><a href="timeline.html">Historical timeline</a><a href="murals.html">Mural collection</a><a href="caves.html">Cave spaces</a><a href="visit.html">Booking prototype</a></div><div class="footer-column"><h4>Resources</h4><a href="https://www.dha.ac.cn/" target="_blank" rel="noopener">Dunhuang Academy</a><a href="https://whc.unesco.org/en/list/440/" target="_blank" rel="noopener">UNESCO World Heritage</a><a href="https://artsandculture.google.com/" target="_blank" rel="noopener">Google Arts &amp; Culture</a><a href="https://commons.wikimedia.org/wiki/Mogao_Caves" target="_blank" rel="noopener">Wikimedia Commons</a><a href="https://www.google.com/maps" target="_blank" rel="noopener">Map reference</a></div><div class="footer-column"><h4>Contact</h4><a href="mailto:yourname@example.com">Email us</a><a href="#">Project team</a><a href="#">Course information</a><a href="#">Accessibility</a><a href="#">Feedback</a></div></div><div class="footer-bottom"><div class="container footer-bottom-inner"><div class="footer-bottom-links"><a href="#">Privacy policy</a><a href="#">Cookies</a><a href="#">Accessibility statement</a><a href="#">Terms of use</a></div><p>© 2026 Dunhuang Digital Micro-Museum · DIT4107 / DMT4747 Group Project</p></div></div></footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
